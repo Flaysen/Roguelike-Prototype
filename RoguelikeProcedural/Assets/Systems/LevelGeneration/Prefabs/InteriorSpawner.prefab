@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2654762515235870192
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5314584643272077408}
+  - component: {fileID: 2762492018696049013}
+  m_Layer: 0
+  m_Name: InteriorSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5314584643272077408
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2654762515235870192}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2762492018696049013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2654762515235870192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41b37a23dced9804f845437a3d8ae210, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pattern: {fileID: 2800000, guid: f977873379dd6c346a47318d58e1505a, type: 3}
+  patterns:
+  - {fileID: 2800000, guid: f977873379dd6c346a47318d58e1505a, type: 3}
+  - {fileID: 2800000, guid: fe0d9ac1c298246448132c6ed792789c, type: 3}
+  - {fileID: 2800000, guid: b22c446245cde9543a708a59e96b6747, type: 3}
+  - {fileID: 2800000, guid: 9c0664b48087367498789136439440de, type: 3}
+  - {fileID: 2800000, guid: f278fa043d2594240b5a3a24fdafd958, type: 3}
+  - {fileID: 2800000, guid: 9858bfc4df5696744a66d42bdea2fbf4, type: 3}
+  - {fileID: 2800000, guid: 21e6e1dd6877bd44eb0bec0968defb14, type: 3}
+  - {fileID: 2800000, guid: e51d4b42663bc5748a5286e11d85c864, type: 3}
+  - {fileID: 2800000, guid: 8c366189427227848bcd3951ecfd5358, type: 3}
+  - {fileID: 2800000, guid: 4420b6f0eebdfe8408f38a6786e1c228, type: 3}
+  - {fileID: 2800000, guid: ad5a5ffd69ba33a49807c10f196e5ab2, type: 3}
+  - {fileID: 2800000, guid: 015b4e2f1a19ed94e90954ed0dab0b79, type: 3}
+  - {fileID: 2800000, guid: 08e4990fdf32ea34a928475ff902cd6c, type: 3}
+  - {fileID: 2800000, guid: 0b53fbfdff35f9840bf8af1a5312c952, type: 3}
+  - {fileID: 2800000, guid: 4b4f50b42c17a0b418e7622f14702ca2, type: 3}
+  mappings:
+  - name: Obstacles
+    color: {r: 0, g: 0, b: 0, a: 1}
+    prefabs:
+    - {fileID: 100000, guid: cece56b7f83595c41b9cf45bf68d6a38, type: 3}
+    - {fileID: 100000, guid: b2572af7a8c82ba4b9f50e2f25078db8, type: 3}
+    - {fileID: 100000, guid: 1a41a03fa9521304b8e59bd2fb2c573b, type: 3}
+  - name: Boxes
+    color: {r: 0.53333336, g: 0, b: 0.08235294, a: 1}
+    prefabs:
+    - {fileID: 100012, guid: 50c6b8069cdc11647936e4ac99bffec9, type: 3}
+    - {fileID: 100012, guid: 50c6b8069cdc11647936e4ac99bffec9, type: 3}
+  - name: Treasures
+    color: {r: 1, g: 1, b: 0, a: 1}
+    prefabs:
+    - {fileID: 121573497, guid: 97669ad0f4b2d5a44b1c2d5398d0252a, type: 3}
+  - name: WallsH
+    color: {r: 0, g: 0, b: 1, a: 1}
+    prefabs:
+    - {fileID: 100006, guid: 914ceb77962bdcf43adff701f9eaffd4, type: 3}
+    - {fileID: 100000, guid: 62b92d165d457434f98128d5d8030188, type: 3}
+    - {fileID: 100000, guid: a555a7d15ecd4fa4eb236a705adf43ba, type: 3}
+  - name: WallsV
+    color: {r: 1, g: 0, b: 1, a: 1}
+    prefabs:
+    - {fileID: 4772602263051910052, guid: d8c0d6700bad9054fbf65613a480c01c, type: 3}
+    - {fileID: 9153807525528766461, guid: 8113e0353bc418b4589142a51818ab7d, type: 3}
+    - {fileID: 587185217988168178, guid: 32aa0aff00f6ce4489d24d7dda1e22e5, type: 3}
+  - name: Explosives
+    color: {r: 1, g: 0, b: 0, a: 1}
+    prefabs:
+    - {fileID: 100000, guid: 2df95e5a8a5d134498587fe27b4efc48, type: 3}
+  - name: Monuments
+    color: {r: 0, g: 1, b: 0, a: 1}
+    prefabs:
+    - {fileID: 100000, guid: 30e61518ad7f6f543b4074958fb8e3ef, type: 3}
+    - {fileID: 100004, guid: dd226c46ffa2ee444a8c0790e077100e, type: 3}
+  - name: Scenery
+    color: {r: 0, g: 1, b: 1, a: 1}
+    prefabs:
+    - {fileID: 100000, guid: 0b1841a054412f747a93c6c37bdaa1e1, type: 3}
+    - {fileID: 100000, guid: 5cb1659f4e5d7c04bb9e6aac782746f8, type: 3}
+    - {fileID: 100000, guid: 4ed5f962381b0124495d9a322268b57b, type: 3}
+  - name: FireLantern
+    color: {r: 1, g: 0.39215687, b: 0, a: 1}
+    prefabs:
+    - {fileID: 383173708, guid: b939e0f6ece8e1b44b2cc3daee74434a, type: 3}
+  - name: Interactive
+    color: {r: 0, g: 0.39215687, b: 0, a: 1}
+    prefabs:
+    - {fileID: 383173708, guid: b939e0f6ece8e1b44b2cc3daee74434a, type: 3}
+  - name: Spikes
+    color: {r: 0.39215687, g: 0.39215687, b: 0.39215687, a: 1}
+    prefabs:
+    - {fileID: 100000, guid: 769a01ae54f2e9647a0b9cd763d6c13d, type: 3}
+  wallsH:
+    serializedVersion: 2
+    rgba: 4294901760
+  wallsV:
+    serializedVersion: 2
+    rgba: 4294902015

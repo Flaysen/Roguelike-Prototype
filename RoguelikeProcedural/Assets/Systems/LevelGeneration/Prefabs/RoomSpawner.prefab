@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5143576323688525004
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6170385048328862917}
+  - component: {fileID: 8737098978793236877}
+  m_Layer: 0
+  m_Name: RoomSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6170385048328862917
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5143576323688525004}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.848796, y: 20.139297, z: -16.946247}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8737098978793236877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5143576323688525004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7465ff83d37e5a42a93a95ff0e74254, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spU: {fileID: 6552393205546390802, guid: f6406fecf0287104980bc8566f93ef2f, type: 3}
+  spD: {fileID: 1568987271760345686, guid: 62be6385fcd90e0498a10cf62c0fc3e8, type: 3}
+  spR: {fileID: 2951417801316982249, guid: c6bf96da02e04424980abc4421efe730, type: 3}
+  spL: {fileID: 5366680303657281463, guid: 3bc6ed3348f0f45418304972b2033448, type: 3}
+  spUD: {fileID: 7048667789490158933, guid: 5c51b8fe2f7847640b8f2933d80e1b4e, type: 3}
+  spRL: {fileID: 1782690551145968946, guid: ffd9f1d2bbc047042985fdc104eb3f30, type: 3}
+  spUR: {fileID: 5997262164116017355, guid: 935ab8ec6ebb5714bb37d19b653d6815, type: 3}
+  spUL: {fileID: 7656668871671801357, guid: 5dde4494fd543e44d84a7aec2c3a5fb1, type: 3}
+  spDR: {fileID: 4168428512810910487, guid: f442f12bf48766943a600ded0cd56e75, type: 3}
+  spDL: {fileID: 5402937172448504337, guid: 5264e54a9626e154fb816c26af8eaa18, type: 3}
+  spULD: {fileID: 6446088488617715308, guid: babde3100c2004d4faedab34434b54f3, type: 3}
+  spRUL: {fileID: 5685195021295546086, guid: 1aa8a00ab8345f4428b4d30ac46dbcdd, type: 3}
+  spDRU: {fileID: 5362749019531342476, guid: 0fe9325544f760c42ac702747e1546be, type: 3}
+  spLDR: {fileID: 8007364582085271417, guid: 831d6976d02afed44a4868944adb848b, type: 3}
+  spUDRL: {fileID: 290772299716025068, guid: 6dafd082faee05745b5f952c44d0816d, type: 3}
+  up: 0
+  down: 0
+  left: 0
+  right: 0
+  type: 0
+  normalColor: {r: 0, g: 0, b: 0, a: 0}
+  enterColor: {r: 0, g: 0, b: 0, a: 0}
